@@ -1,6 +1,6 @@
 {
-  "name": "preact-boilerplate",
-  "version": "6.0.0",
+  "name": "plexus-sub",
+  "version": "0.0.0",
   "description": "Ready-to-go Preact starter project powered by webpack.",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --progress",
@@ -18,7 +18,7 @@
     "webpack"
   ],
   "license": "MIT",
-  "author": "Jason Miller <jason@developit.ca>",
+  "author": "Sambhav Jain <sambhavjain2612@gmail.com>",
   "jest": {
     "setupFiles": [
       "./test/setup.js"
@@ -94,6 +94,19 @@
     "preact-router": "^2.5.1",
     "promise-polyfill": "^7.0.1",
     "proptypes": "^1.0.0",
+    "react-player": "^1.10.0",
     "serve": "^6.0.0"
-  }
+  },
+  "main": "webpack.config.babel.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhav2612/plexusMD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sambhav2612/plexusMD/issues"
+  },
+  "homepage": "https://github.com/sambhav2612/plexusMD#readme"
 }
